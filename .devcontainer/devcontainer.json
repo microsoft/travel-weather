@@ -1,0 +1,41 @@
+{
+	"name": "Python 3",
+	"forwardPorts": [
+	  8000
+	],
+	"build": {
+	  "dockerfile": "Dockerfile",
+	  "context": "..",
+	  "args": {
+		"VARIANT": "3.10-bullseye"
+	  }
+	},
+	"customizations": {
+	  "codespaces": {
+		"openFiles": [
+		  "webapp/main.py",
+		  "webapp/static/index.html"
+		]
+	  },
+	  "vscode": {
+		"settings": {
+		  "python.defaultInterpreterPath": "/home/vscode/venv/bin/python"
+		},
+		"extensions": [
+		  "ms-python.python",
+		  "ms-python.vscode-pylance",
+		  "GitHub.copilot-chat"
+		]
+	  }
+	},
+	"postAttachCommand": {
+	  "server": "uvicorn --host 0.0.0.0 webapp.main:app --reload"
+	},
+	"portsAttributes": {
+	  "8000": {
+		"label": "Application",
+		"onAutoForward": "openPreview"
+	  }
+	},
+	"remoteUser": "vscode"
+  }
