@@ -29,7 +29,7 @@
 	  }
 	},
 	"postAttachCommand": {
-	  "server": "uvicorn --host 0.0.0.0 webapp.main:app --reload"
+	  "server": "/home/vscode/venv/bin/uvicorn --host 0.0.0.0 webapp.main:app --reload"
 	},
 	"portsAttributes": {
 	  "8000": {

@@ -1,6 +1,7 @@
 import json
 from os.path import dirname, abspath, join
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 
@@ -15,6 +16,14 @@ app.mount("/.well-known", StaticFiles(directory=wellknown_path), name="static")
 # load historical json data and serialize it:
 with open(historical_data, "r") as f:
     data = json.load(f)
+
+@app.get('/')
+def root():
+    """
+    Allows to open the API documentation in the browser directly instead of
+    requiring to open the /docs path.
+    """
+    return RedirectResponse(url='/docs', status_code=301)
 
 
 @app.get('/countries')
