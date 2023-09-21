@@ -1,6 +1,5 @@
 # A Travel Weather ChatGPT Plugin
 
-
 A ChatGPT plugin application in Python that is ready to be used with GitHub Codespaces and GitHub Copilot.
 
 ## Trademarks
