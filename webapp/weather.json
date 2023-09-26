@@ -1,4 +1,52 @@
 {
+  "England": {
+    "London": {
+      "January": {"high": 45, "low": 36},
+      "February": {"high": 46, "low": 36},
+      "March": {"high": 50, "low": 39},
+      "April": {"high": 54, "low": 42},
+      "May": {"high": 60, "low": 47},
+      "June": {"high": 64, "low": 52},
+      "July": {"high": 68, "low": 56},
+      "August": {"high": 68, "low": 56},
+      "September": {"high": 63, "low": 52},
+      "October": {"high": 57, "low": 47},
+      "November": {"high": 50, "low": 42},
+      "December": {"high": 46, "low": 38}
+    }
+  },
+  "France": {
+    "Paris": {
+      "January": {"high": 45, "low": 36},
+      "February": {"high": 47, "low": 36},
+      "March": {"high": 53, "low": 39},
+      "April": {"high": 58, "low": 43},
+      "May": {"high": 64, "low": 49},
+      "June": {"high": 70, "low": 54},
+      "July": {"high": 75, "low": 58},
+      "August": {"high": 74, "low": 58},
+      "September": {"high": 68, "low": 54},
+      "October": {"high": 59, "low": 48},
+      "November": {"high": 51, "low": 42},
+      "December": {"high": 46, "low": 37}
+    }
+  },
+  "Germany": {
+    "Berlin": {
+      "January": {"high": 37, "low": 29},
+      "February": {"high": 39, "low": 29},
+      "March": {"high": 46, "low": 34},
+      "April": {"high": 54, "low": 39},
+      "May": {"high": 64, "low": 48},
+      "June": {"high": 70, "low": 54},
+      "July": {"high": 73, "low": 57},
+      "August": {"high": 73, "low": 57},
+      "September": {"high": 65, "low": 50},
+      "October": {"high": 55, "low": 43},
+      "November": {"high": 45, "low": 36},
+      "December": {"high": 38, "low": 31}
+    }
+  },
   "Peru": {
     "Lima": {
       "January": {"high": 75, "low": 66},
