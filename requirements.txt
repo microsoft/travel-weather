@@ -1,3 +1,6 @@
-fastapi==0.78.0
+fastapi==0.103.2
 pydantic
 uvicorn[standard]
+httpx==0.25.0
+requests==2.31.0
+pytest
