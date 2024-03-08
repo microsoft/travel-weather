@@ -4,3 +4,4 @@ uvicorn[standard]
 httpx==0.25.0
 requests==2.31.0
 pytest
+gunicorn

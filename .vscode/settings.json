@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6dc519bb-d02e-486e-b67b-ed5cd1abb1f9/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/alfredo-demo-fastapi",
+    "appService.deploySubpath": "."
+}
